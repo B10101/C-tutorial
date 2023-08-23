@@ -1,0 +1,12 @@
++  addition
+-  subtract
+*  multiply
+/ divide
+% remainder
+++ increment by 1
+-- decrement by 1
+
+
+boolean: true, false. use with stdbool.h
+they are represented as integers
+
