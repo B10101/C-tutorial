@@ -33,7 +33,23 @@ int main(){
 
 
 	//switch statements
-	
+	int week;
+
+	printf("Enter a number between 1 and 2");
+	scanf("%d", &week);
+
+	switch (week) {
+		case 1:
+			printf("Sunday");
+			break;
+		case 2:
+			printf("Monday");
+			break;
+		default:
+			printf("Invalid");
+			break;
+				
+	}
 
 	return 0;
 }
